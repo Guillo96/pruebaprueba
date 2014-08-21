@@ -1,0 +1,15 @@
+/.project////*////
+/AndroidManifest.xml////*////
+/build.xml////*////
+/custom_rules.xml////*////
+/local.properties////*////
+/proguard-project.txt////*////
+/project.properties////*////
+D/CordovaLib////////
+D/ant-build////////
+D/ant-gen////////
+D/assets////////
+D/cordova////////
+D/platform_www////////
+D/res////////
+D/src////////
