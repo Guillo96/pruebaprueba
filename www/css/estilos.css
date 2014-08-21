@@ -1,0 +1,192 @@
+.contenidoIngreso {
+  background-color: #F3F3F3; }
+
+.textoCabecera {
+  background-color: #F3F3F3;
+  border-style: none;
+  white-space: normal; }
+  .textoCabecera .tituloIngresoCabecera {
+    color: #004771;
+    font-size: 1.2em;
+    font-weight: bold;
+    white-space: normal; }
+  .textoCabecera .parrafoIngresoCabecera {
+    text-align: justify;
+    white-space: normal; }
+
+.labelInput {
+  border-radius: 0.4em !important; }
+  .labelInput .iconoInput {
+    color: #CCCCCC;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    text-align: left;
+    width: 3em; }
+  .labelInput .input {
+    font-size: 1em; }
+
+.boton {
+  background-color: #F3F3F3;
+  border-style: none;
+  display: block; }
+  .boton .Boton {
+    text-align: right !important; }
+
+.imagenesBancolombia {
+  background-color: #F3F3F3;
+  border: 0;
+  border-style: none;
+  padding: 50%; }
+  .imagenesBancolombia .imagen {
+    height: 10%;
+    width: 90%; }
+  .imagenesBancolombia .slider {
+    height: 90%; }
+  .imagenesBancolombia .slider-slide {
+    color: #004771;
+    text-align: center; }
+  .imagenesBancolombia .slider-pager {
+    bottom: 20% !important; }
+    .imagenesBancolombia .slider-pager .slider-pager-page {
+      color: #004771; }
+
+.modalTransacciones {
+  background-color: #F3F3F3;
+  border-radius: 0.4em !important;
+  left: 1.3em;
+  min-height: 90%;
+  top: 3.5em;
+  width: 90%; }
+  .modalTransacciones .headerTransacciones {
+    border: 0;
+    border-radius: 0.4em !important;
+    border-style: none; }
+    .modalTransacciones .headerTransacciones .botonCerrarTransacciones {
+      background-color: #F3F3F3;
+      border-style: none;
+      padding: 0;
+      text-align: right; }
+      .modalTransacciones .headerTransacciones .botonCerrarTransacciones .btnCerrar {
+        color: Firebrick;
+        font-size: 1.5em; }
+  .modalTransacciones .contenidoTransacciones {
+    background-color: #F3F3F3;
+    margin: 0.5em; }
+    .modalTransacciones .contenidoTransacciones .itemTransacciones {
+      background-color: #F3F3F3; }
+    .modalTransacciones .contenidoTransacciones .tituloTransaccion {
+      font-size: 1em; }
+    .modalTransacciones .contenidoTransacciones .descripcionTransaccion {
+      font-size: 0.8em;
+      white-space: normal; }
+    .modalTransacciones .contenidoTransacciones .colorIcono {
+      background-image: url('/www/img/icons.png');
+      background-position: -32px -32px;
+      background-repeat: no-repeat;
+      background-size: 10em;
+      color: #004771;
+      left: 0;
+      width: 300px;
+      height: 300px; }
+    .modalTransacciones .contenidoTransacciones .iconoFlecha {
+      color: #004771; }
+
+.contenedorRetiros {
+  background-color: #F3F3F3; }
+
+.contenidoRetiros .subheaderRetiros {
+  height: auto;
+  padding: 2em;
+  text-align: center;
+  white-space: normal; }
+  .contenidoRetiros .subheaderRetiros .tituloRetiros {
+    color: #001410;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    white-space: normal; }
+  .contenidoRetiros .subheaderRetiros .contenidoRetiros {
+    font-size: 1em;
+    text-align: center;
+    white-space: normal; }
+.contenidoRetiros .generarPin {
+  border-radius: 0.4em;
+  border-style: none;
+  box-shadow: none; }
+  .contenidoRetiros .generarPin .iconoBadged {
+    background-color: #004771;
+    display: inline-block;
+    left: 0;
+    margin-left: 1em;
+    right: initial; }
+  .contenidoRetiros .generarPin .tituloContenidoRetiros {
+    color: #001410;
+    font-size: 1em;
+    font-weight: bold; }
+  .contenidoRetiros .generarPin .mensajeContenidoRetiros {
+    color: #001410;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    text-align: justify;
+    white-space: normal; }
+.contenidoRetiros .pin {
+  box-shadow: none; }
+
+.mensajeRetiroFinalizar {
+  background-color: inherit; }
+  .mensajeRetiroFinalizar .mensaje {
+    background-color: lightgreen;
+    padding: 3em;
+    text-align: justify;
+    white-space: normal; }
+    .mensajeRetiroFinalizar .mensaje .iconoMensaje {
+      color: green;
+      font-size: 5em; }
+    .mensajeRetiroFinalizar .mensaje .textoMensaje {
+      color: green;
+      padding-left: 3em;
+      font-weight: bold;
+      white-space: normal; }
+  .mensajeRetiroFinalizar .mensajeInstructivo {
+    background-color: inherit;
+    border-style: none;
+    padding: 3em;
+    text-align: justify;
+    white-space: normal; }
+  .mensajeRetiroFinalizar .botonCancelar {
+    background-color: inherit;
+    border-style: none; }
+
+.botonesRetirosFooter {
+  background-color: #F3F3F3; }
+  .botonesRetirosFooter .botonIzquierdo {
+    position: absolute;
+    left: 0; }
+  .botonesRetirosFooter .botonDerecho {
+    position: absolute;
+    right: 0; }
+
+.MenuPopover, .contenidoPopover, .botonChat, .listaContactos {
+  background-color: #F3F3F3 !important; }
+
+.botonChat {
+  border-style: none;
+  margin: 2em; }
+
+.listaContactos {
+  vertical-align: center; }
+  .listaContactos .descripcion {
+    background-color: #F3F3F3;
+    padding: 0 2em 2em 2em;
+    text-align: justify;
+    white-space: normal; }
+  .listaContactos .itemContanto {
+    background-color: #F3F3F3; }
+  .listaContactos .botonContacto {
+    border-style: none;
+    height: 1em;
+    margin: 0.1em;
+    width: 1em; }
+
+/*# sourceMappingURL=estilos.css.map */

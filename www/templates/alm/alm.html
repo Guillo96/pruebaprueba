@@ -1,0 +1,52 @@
+<ion-nav-bar class="bar-positive nav-title-slide-ios7">
+    <ion-nav-back-button class="button-icon icon ion-ios7-arrow-back">
+        Atrás
+    </ion-nav-back-button>
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" ng-click="abrirMenuPpal()">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button-icon button-light">
+            <i class="icon ion-android-share" ng-click="compartir()"></i>
+        </button>
+        <button class="button-icon">
+            <i class="icon ion-chatbox-working" ng-click="abrirMenuDerecho($event)"></i>
+        </button>
+        <button class="button-icon button-light">
+            <i class="icon bancolombia-icon"></i>
+        </button>
+    </ion-nav-buttons>
+</ion-nav-bar>
+<ion-side-menus>
+    <ion-side-menu-content>
+        <ion-nav-view name="alm"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" >
+        <ion-content class="has-header calm" scroll="false">
+            <ion-header-bar class="bar bar-calm cabecera-menu">
+                <div class="row">
+                   <div class="list">
+                        <a class="item item-icon-left">
+                            <i class="icon ion-android-contact"></i>
+                            <div class="cabecera-texto">
+                                Usuario sin ingresar
+                                <div class="cabecera-detalle" ng-show="autorizado">Cuenta *{{menuppal.detalleCuenta}}</div>
+                                <!--Agregado no visible para mantener el aspecto del icono-->
+                                <div class="cabecera-detalleNo" ng-show="!autorizado">-</div>
+                            </div>
+                        </a>   
+                   </div>
+                </div>
+            </ion-header-bar>
+            <div class="list">
+                <a nav-clear menu-close class="item item-icon-left item-icon-right" ng-repeat="item in menuppal" ng-click="ir(item.estado)">
+                    <i class="icon ion-navigate izquierda"></i>
+                    <div class="row concepto">{{item.titulo}}</div>
+                    <div class="row detalle">{{item.subtitulo}}</div>
+                    <i class="icon  ion-chevron-right derecha"></i>
+                </a>
+            </div>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

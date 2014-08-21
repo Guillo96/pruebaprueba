@@ -1,0 +1,23 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "../lib/ionic/scss/ionic";
+
+@import 'menu-derecho', 'menu-principal', 'separador','cabezera', 'mensaje', 'mensaje-exito', 'botones', 'subtitulo', 'subtitulo-simple', 'subtitulo-semisimple', 'encabezado';
+
+@import 'estado', 'transferencia-realizar', 'transferencia-confirmar', 'transferencia-finalizar';
+//Se resetea el padding por defecto del elemento ion-content
+ion-content{
+    .padding{
+        padding: 0 !important;
+    }
+}
+ion-nav-view{
+    font-size: $font-size-small;
+}
+
+
+
+//
+//
+//

@@ -1,0 +1,116 @@
+/*
+ * Menu-principal
+ */
+
+@import 'bancolombia';
+
+ion-side-menus{
+    font-size: $font-size-base;
+    
+    ion-side-menu{
+        ion-content{
+            background-color: $fondo-claro;
+            height: 100%;
+            
+            .cabecera-menu{
+                background-color: $amarillo !important;
+                border-style: none;
+                height: 5.5em;
+                min-height: 5.5em;
+                position: relative;
+                
+                .row{                        
+                    .list{
+                        background-color: transparent;
+                        
+                        .item{
+                            background-color: transparent;
+                            border-style: none;
+                            color: $negro;
+                            font-size: $font-size-large;
+                            font-weight: bold;
+                            
+                            .cabecera-texto{
+                                margin-left: 1em;
+                                
+                                .cabecera-detalle{
+                                    color: $amarillo-oscuro;
+                                    font-size: $font-size-base;
+                                    margin-top: 1em;
+                                }
+                                
+                                //Agregado no visible para mantener el aspecto del icono
+                                .cabecera-detalleNo{
+                                    color: $amarillo;
+                                    font-size: $font-size-base;
+                                    margin-top: 1em;
+                                }
+                            }
+                            
+                            
+                            i{
+                                background-color: $amarillo-oscuro;
+                                border-radius: 4em;
+                                color: $fondo !important;
+                                font-size: 1em;
+                                margin-bottom: 0.05em;
+                                margin-left: -0.5em;
+                                margin-top: 0.05em;
+                                padding: 0 0.75em;
+                                overflow: visible !important;
+                            }
+                        }
+                    }
+
+                    h1.cabecera-titulo{
+                        color: $negro !important;
+                    }
+                }
+            }
+                        
+            .list{
+                background-color: inherit;
+                  
+                .item{
+                    background-color: inherit;
+                    line-height: 0.5em;
+                    
+                    &:active{
+                        background-color: $gris-claro;
+                    }
+                    
+                    .icon{
+                        color: $azul;
+                    }
+                    
+                    .derecha{
+                        font-weight: lighter;
+                    }
+                    .izquierda{
+                        margin-left: -0.5em;
+                        margin-right: 0;
+                    }
+                    
+                    .row{
+                        margin: 0 0 0 -1em;
+                        padding: 0;
+                        overflow-x: hidden;
+                        text-align: left;
+                    }
+                    
+                    .concepto{
+                        color: $negro;
+                        padding-bottom: 0.25em;
+                        padding-top: 0.25em;
+                    }
+                    
+                    .detalle{
+                        color: $gris-oscuro;
+                        font-size: $font-size-small;
+                        padding-top: 0.25em;
+                    }
+                }
+            }
+        }
+    }
+}

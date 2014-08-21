@@ -1,0 +1,99 @@
+/*
+ * Pagina - Transferencia de Cuenta / confirmacion - Bancolombia
+ */
+
+@import 'bancolombia';
+
+.transferencia-contenido{
+    padding-bottom: 2em;
+            
+    .transferencia-resumen{
+        
+        .transferencia-resumen-items{
+            border-style: none;
+            margin-bottom: 0.25em;
+            margin-top: 0.25em;
+            margin-left: -1em;
+            margin-right: -1em;
+            padding-right: 0.25em;
+            
+            .item{
+                background-color: inherit;
+                border-color: $gris;
+                border-width: 0.1;
+                padding: 0;
+
+                .row{
+                    line-height: $line-height-small;
+                    .col{
+                        .resumen-propiedad, .resumen-valor{
+                            line-height: $line-height-small - 1;
+                        }
+
+                        .resumen-propiedad{
+                            color: $negro-claro;
+                            text-align: left;
+                        }
+
+                        .resumen-valor{
+                            font-size: $font-size-small + 2;
+                            font-weight: bold;
+                            text-align: right;
+                        }
+
+                        .resumen-formato-cuenta{
+                            &:before{
+                                content: '*';
+                                margin-right: -0.25em;
+                            }
+                        }
+                        
+                        .resumen-formato-pesos{
+                            &:before{
+                                content: '$';
+                                margin-right: -0.25em;
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    
+    .transferencia-formuario{
+        
+        .transferencia-formulario-items{
+        
+            .item{
+            
+                .badge{
+                    display: inline;
+                    left: 0;
+                    margin-right: 1em;
+                    top: auto;
+                    width: 2em;
+                }
+
+                .input-label{
+                    font-size: 1em;
+                    margin-left: 1em;
+                }
+
+                input[type="text"]{
+                    border-bottom-color: $gris-claro;
+                    border-left-color: $gris-claro;
+                    border-radius: $radio-pequeno;
+                    border-right-color: $gris-claro;
+                    border-style: solid;
+                    border-top-color: $gris;
+                    border-width: thin;
+                    font-size: 1em;
+                    line-height: 2em;
+                    margin-left: 2em;
+                    padding: 1em;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

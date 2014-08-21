@@ -1,0 +1,70 @@
+/*
+ * Botones Bancolombia
+ */
+
+@import 'bancolombia';
+
+.ion-navicon{
+    //margin-left: -1em;
+}
+
+.bancolombia-icon{
+    &:before{
+        background: url('../img/ionic.png') no-repeat 0 0;
+        background-size: 80%;
+        content: '';
+        display: inline-block;
+        height: 1.1em;
+        width: 1.1em;
+        //content: url('../img/ionic.png');
+    }
+}
+
+ion-nav-bar{
+        
+    button {
+        i{
+            color: $light !important;
+        }
+    }
+    .button-icon .button.activated{
+        &:active{
+            opacity: 1;
+        }
+    }
+    .button-icon{
+        text-align: center;
+    }
+}
+
+.Boton{
+    height: 1.75em;
+    left: auto;
+    position: relative;
+    right: auto;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    
+    .boton-bancolombia{
+        border-style: none;
+        color: white;
+        font-size: $font-size-base;
+        left: auto;
+        right: auto;
+        top: -1.5em;
+        width: 10em;
+    }
+    
+    .color-azul{
+        background-color: $azul;
+    }
+    
+    .color-rojo{
+        background-color: $rojo;
+    }
+    
+    .color-gris{
+        background-color: $gris;
+    }
+}

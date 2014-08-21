@@ -1,0 +1,78 @@
+/*
+ * Mensaje exito - Bancolombia
+ */
+
+@import 'bancolombia';
+
+
+$verde: #008000;
+
+alm-mensaje-exito{
+    
+    width: 100%;
+    
+    .Mensaje-exito{
+        background-color: #90ee90;
+        width: 100%;
+        padding-bottom: 1em;
+        
+        .row{
+            
+            .imagen{
+                margin-top: 1.5em;
+                vertical-align: center;
+                
+                .list-card{
+                    text-align: center;
+                    
+                    
+                    .item{
+                        background-color: transparent;
+                        border-style: none;
+                        margin-top: 0.5em;
+                        padding: 0;
+                        
+                        i{  
+                            background-color: transparent;
+                            color: $verde !important;
+                            font-size: 5em;
+                        }
+                    }
+                }
+            }
+            
+            .textos{
+                padding-bottom: 0;
+                
+                .row{
+                    text-align: left;
+                }
+                
+                .row-top{
+                    
+                    .titulo{
+                        color: $verde !important;
+                        font-size: $font-size-base + 2;
+                        font-weight: bolder;
+                    }
+                }
+                .row-center{
+                    
+                    .subtitulo{
+                        color: $verde !important;
+                        font-size: $font-size-base;
+                        margin-bottom: 1em;
+                    }
+                }
+                .row-bottom{
+                    .contenido{
+                        color: $verde !important;
+                        display: block;
+                        font-size: $font-size-large * 2;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

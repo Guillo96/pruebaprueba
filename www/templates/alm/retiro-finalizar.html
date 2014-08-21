@@ -1,0 +1,26 @@
+<ion-view title="Retiro de Dinero" hide-back-button="true" class="contenedorRetiros">
+    <ion-content has-header="true" has-subheader="true" has-tabs="true">
+        <div class="list mensajeRetiroFinalizar">
+            <div class="item item-icon-left mensaje">
+                <i class="icon ion-checkmark-circled iconoMensaje"></i>
+                <span class="textoMensaje">  
+                    Pin generado correctamente.
+                </span>
+            </div>
+            <div class="item mensajeInstructivo">
+                Se ha enviado el pin vía mensaje de texto a su celular. Recuerde que este pin es temporal y tiene una duración de <strong>30 mínutos</strong>.
+            </div>
+            <div class="item botonCancelar">
+                <alm-boton boton="cancelarPin"></alm-boton>
+            </div>
+        </div>
+    </ion-content>
+    <div class="bar bar-footer row botonesRetirosFooter">
+        <div class="cell botonIzquierdo">
+            <alm-boton boton="irATransacciones"></alm-boton>
+        </div>
+        <div class="cell botonDerecho">
+            <alm-boton boton="finalizar"></alm-boton>
+        </div>       
+    </div>
+</ion-view>

@@ -1,0 +1,27 @@
+/*
+ * Cabezera Bancolombia
+ */
+
+.ion-navicon{
+    //margin-left: -1em;
+}
+
+
+ion-nav-bar{
+        
+    button {
+        i{
+            color: $light !important;
+        }
+    }
+    
+    .button-icon .button.activated{
+        &:active{
+            opacity: 1;
+        }
+    }
+    
+    .button-icon{
+        text-align: center;
+    }
+}

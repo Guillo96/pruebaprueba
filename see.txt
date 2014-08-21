@@ -1,0 +1,36 @@
+Your Ionic project is ready to go!
+
+Some quick tips:
+
+ * cd into your project: $ cd BancaALaMano
+
+ * Develop in the browser with live reload: ionic serve
+
+ * Add a platform (ios or Android): ionic platform add ios [android]
+    Note: iOS development requires OS X currently
+    See the Android Platform Guide for full Android installation instructions:
+    https://cordova.apache.org/docs/en/edge/guide_platforms_android_index.md.html#Android%20Platform%20Guide
+
+ * Build your app: ionic build <PLATFORM>
+
+ * Simulate your app: ionic emulate <PLATFORM>
+
+ * Run your app on a device: ionic run <PLATFORM>
+
+ * Package an app using Ionic package service: ionic package <MODE> <PLATFORM>
+
+
+For more help use ionic --help or visit the Ionic docs: http://ionicframework.com/docs 
+
+git init
+git add .
+git status
+git commit -m "Commit inicial"
+git remote add origin https://github.com/franclopez/GasControl
+git push -u origin master
+
+gulp sass
+ionic build ios
+ionic emulate ios
+
+python -m SimpleHTTPServer 8000

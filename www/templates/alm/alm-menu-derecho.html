@@ -1,0 +1,19 @@
+<ion-popover-view class="MenuPopover">
+    <ion-content class="has-header contenidoPopover">
+        <ion-list class="listaContactos">
+            <ion-item ng-repeat="item in menuderecho" type="item-text-wrap">
+                <ion-item ng-repeat="tel in item.chat" type="item-text-wrap" href="{{tel.url}}">
+                    <alm-boton boton="irAChat"></alm-boton>
+                </ion-item>
+                <ion-item class="descripcion">
+                    Si usted tiene alguna inquietud, por favor comuniquese con nuestras sucursales telefónicas.
+                </ion-item>
+                <ion-item class="item item-icon-right" ng-repeat="tel in item.telefono" type="item-text-wrap" href="{{tel.numero}}">
+                    <span>{{tel.sede}} :</span>
+                    <span>{{tel.numero}}</span> 
+                    <button class="button button-balanced icon ion-android-call"></button>
+                </ion-item>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-popover-view>
